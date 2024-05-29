@@ -1,0 +1,26 @@
+.container {
+  @apply p-4 h-[536px] flex flex-col items-center gap-4;
+}
+
+.title {
+  @apply w-2/3 text-center;
+}
+.title h2 {
+  @apply font-PPNeueMachina text-3xl;
+}
+
+.form {
+  @apply w-full h-[416px] flex flex-col gap-4 font-InterRegular text-lg;
+}
+.form label {
+  @apply w-full h-16 p-4 bg-white-100 border-solid border-2 border-[rgba(112,112,112,0.1)] rounded-2xl;
+}
+.form label:nth-child(2) {
+  @apply flex items-center gap-4;
+}
+.form label > input {
+  @apply w-full bg-transparent focus:outline-none text-black placeholder-black;
+}
+.submitBtn {
+  @apply w-full h-16 bg-black text-white-0 mt-auto rounded-full;
+}

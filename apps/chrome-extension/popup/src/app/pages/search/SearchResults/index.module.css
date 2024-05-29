@@ -1,0 +1,9 @@
+.title {
+  @apply font-PPNeueMachina text-xl flex items-center justify-between;
+}
+.main {
+  @apply h-[480px] overflow-y-scroll py-4;
+}
+.container {
+  @apply flex items-center justify-around flex-wrap gap-4 my-4;
+}

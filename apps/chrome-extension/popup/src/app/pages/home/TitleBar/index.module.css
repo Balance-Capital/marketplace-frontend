@@ -1,0 +1,6 @@
+.container {
+  @apply h-16 flex items-center justify-between bg-black p-4;
+}
+.title {
+  @apply font-PPNeueMachina text-xl text-white-0 pt-1;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "locale": "en",
+    "commission": "Commission",
+    "td1": "Sale amount",
+    "td2": "Order amount",
+    "td3": "Commission rate",
+    "h2": "Clicked URL",
+    "h2a": "Audience",
+    "h2b": "Events",
+    "location": "Location",
+    "devicetype": "Device type",
+    "clicked": "Clicked",
+    "converted": "Converted",
+    "completed": "Completed",
+    "pending": "Pending"
+  }
+]

@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.oneRowEllipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.twoRowEllipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@font-face {
+  font-family: PPNeueMachina;
+  src: url('/assets/fonts/primary-font/PPNeueMachina-InktrapRegular.otf');
+}
+@font-face {
+  font-family: InterBlack;
+  src: url('/assets/fonts/secondary-font/Inter-Black.ttf');
+}
+@font-face {
+  font-family: InterBold;
+  src: url('/assets/fonts/secondary-font/Inter-Bold.ttf');
+}
+@font-face {
+  font-family: InterExtraBold;
+  src: url('/assets/fonts/secondary-font/Inter-ExtraBold.ttf');
+}
+@font-face {
+  font-family: InterExtraLight;
+  src: url('/assets/fonts/secondary-font/Inter-ExtraLight.ttf');
+}
+@font-face {
+  font-family: InterLight;
+  src: url('/assets/fonts/secondary-font/Inter-Light.ttf');
+}
+@font-face {
+  font-family: InterMedium;
+  src: url('/assets/fonts/secondary-font/Inter-Medium.ttf');
+}
+@font-face {
+  font-family: InterRegular;
+  src: url('/assets/fonts/secondary-font/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: InterSemiBold;
+  src: url('/assets/fonts/secondary-font/Inter-SemiBold.ttf');
+}
+@font-face {
+  font-family: InterThin;
+  src: url('/assets/fonts/secondary-font/Inter-Thin.ttf');
+}

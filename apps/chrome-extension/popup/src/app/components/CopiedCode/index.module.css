@@ -1,0 +1,12 @@
+.btn {
+  @apply w-24 h-8 flex items-center justify-center font-PPNeueMachina text-xs text-white-0 bg-black rounded-full;
+}
+.row {
+  @apply flex items-center justify-between;
+}
+.row span {
+  @apply flex items-center gap-2 font-InterRegular text-sm text-success;
+}
+.activeBtn {
+  @apply w-24 h-8 flex items-center justify-center font-PPNeueMachina text-xs text-white-0 bg-success rounded-full;
+}

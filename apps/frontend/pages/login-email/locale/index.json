@@ -1,0 +1,30 @@
+[
+  {
+    "locale": "en",
+    "title": "Authenticate XXX | Save Online On Your Next Shopping",
+    "description": "login page",
+    "keyWords": "login, registration ",
+    "openGraph": {
+      "ogTitle": "Authenticate XXX | Save Online On Your Next Shopping",
+      "ogDescription": "Authenticate XXX",
+      "ogType": "website",
+      "ogImage": "https://XXX/assets/images/png/logo-black.png",
+      "ogUrl": "https://XXX/login-email",
+      "ogSiteName": "XXX"
+    },
+    "canonicalLink": "https://XXX/login-email",
+    "metaRobots": "noarchive",
+    "jsonld": {
+    },
+    "content": {
+      "p1": "Login with Email",
+      "p2": "Log in to XXX",
+      "p3": "Enter e-mail",
+      "p4": "Enter password",
+      "btn": "Log in with Email",
+      "p5": "Forgot password?",
+      "p6": "Not a member?",
+      "p7": "Join"
+    }
+  }
+]

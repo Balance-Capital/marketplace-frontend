@@ -1,0 +1,9 @@
+[
+  {
+    "locale": "en",
+    "connecting": "connecting",
+    "connect": "Connect wallet",
+    "disconnect": "disconnect",
+    "balance": "Balance"
+  }
+]

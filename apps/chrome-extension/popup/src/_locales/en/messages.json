@@ -1,0 +1,113 @@
+{
+  "extName": {
+    "message": "XXX"
+  },
+  "networkIssue": {
+    "message": "I think something went wrong. Kindly check your network connection try again!"
+  },
+  "homePageTitle": {
+    "message": "Home"
+  },
+  "homePageTitle2": {
+    "message": "Popular stores"
+  },
+  "homePageTitle6": {
+    "message": "Popular products"
+  },
+  "homePageTitle4": {
+    "message": "Shop by category"
+  },
+  "homePageTitle5": {
+    "message": "Trending products"
+  },
+  "homePageAnchorTitle": {
+    "message": "View all"
+  },
+  "homePageTitle3": {
+    "message": "Today’s deals"
+  },
+  "homePageBtnTitle": {
+    "message": "Get deal"
+  },
+  "homePageBtnTitle2": {
+    "message": "Get code"
+  },
+  "homePageBtnTitle3": {
+    "message": "Copied"
+  },
+  "searchStoresResult": {
+    "message": "Stores that match"
+  },
+  "searchProductsResult": {
+    "message": "Products that match"
+  },
+  "searchBarPlaceholder": {
+    "message": "Search stores & products"
+  },
+  "storeNoOffer": {
+    "message": "No offer available."
+  },
+  "joinToCompany": {
+    "message": "Join XXX"
+  },
+  "joinReward": {
+    "message": "Unlock rewards and exclusive offers"
+  },
+  "joinWith": {
+    "message": "Join with"
+  },
+  "continueWith": {
+    "message": "Continue with"
+  },
+  "loginWith": {
+    "message": "Login with"
+  },
+  "createA": {
+    "message": "Create a free account"
+  },
+  "settingsPageTitle": {
+    "message": "Settings"
+  },
+  "userProfilePageTitle": {
+    "message": "Profile"
+  },
+  "rewardsPageTitle": {
+    "message": "Rewards"
+  },
+  "rewardsModalTitle": {
+    "message": "Earn cashback when you spend"
+  },
+  "rewardsModalDescription": {
+    "message": "Get 1-5% cashback at some of your online favourite online stores. Redeem your rewards for crypto and other items. Learn more"
+  },
+  "rewardsModalBtn": {
+    "message": "Ok, got it!"
+  },
+  "referralsPageTitle": {
+    "message": "Referrals"
+  },
+  "referralsModalTitle": {
+    "message": "Share your link, earn rewards"
+  },
+  "referralsModalDescription": {
+    "message": "Share your link with your friends. Once they join XXX and earn rewards on a purchase, you’ll also get rewarded too. Learn more"
+  },
+  "referralsModalBtn": {
+    "message": "Ok, got it!"
+  },
+  "sortModalOption1": {
+    "message": "Most popular"
+  },
+  "sortModalOption2": {
+    "message": "Biggest savings"
+  },
+  "sortModalOption3": {
+    "message": "Recently added"
+  },
+  "sortModalOption4": {
+    "message": "Most deals"
+  },
+  "copyRight": {
+    "message": "Copyright @ 2024 XXX. All Rights Reserved. v1.0.0"
+  }
+}

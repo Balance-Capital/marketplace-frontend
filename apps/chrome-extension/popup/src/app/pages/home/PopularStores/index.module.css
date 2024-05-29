@@ -1,0 +1,27 @@
+.container {
+  @apply relative;
+}
+.bgBlack {
+  @apply top-0 absolute bg-black w-full h-32;
+}
+.topBar {
+  @apply relative p-4 flex items-center justify-between;
+}
+.title {
+  @apply font-PPNeueMachina text-xl text-white-0;
+}
+.viewLink {
+  @apply font-InterRegular text-sm text-secondary;
+}
+.cards {
+  @apply px-4 w-fit flex items-center gap-4;
+}
+.card {
+  @apply w-48 h-32 rounded-3xl bg-white-50 overflow-hidden;
+}
+.cardCircleImg {
+  @apply m-4 w-14 h-14 rounded-full;
+}
+.cardTitle {
+  @apply w-fit mx-4 mt-2 font-PPNeueMachina text-lg;
+}

@@ -1,0 +1,12 @@
+.card {
+  @apply w-[155px] h-[178px] bg-white-50 rounded-3xl flex flex-col justify-between p-4 items-center;
+}
+.card img {
+  @apply w-[84px] h-[84px] rounded-3xl;
+}
+.cardTitle {
+  @apply w-28 font-PPNeueMachina text-sm text-center;
+}
+.badge {
+  @apply w-12 h-5 rounded-full bg-black font-InterRegular text-white-0 text-xs flex items-center justify-center gap-2;
+}

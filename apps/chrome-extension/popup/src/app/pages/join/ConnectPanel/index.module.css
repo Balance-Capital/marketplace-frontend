@@ -1,0 +1,23 @@
+.container {
+  @apply p-4 h-[536px] flex flex-col items-center gap-4;
+}
+
+.container a {
+  @apply w-full h-[70px] font-InterRegular text-lg flex items-center justify-center gap-4 rounded-2xl;
+}
+.btn-light {
+  @apply bg-white-0 hover:bg-white-50;
+}
+.btn-dark {
+  @apply bg-black text-white-0 hover:bg-primary mt-auto;
+}
+
+.title {
+  @apply text-center;
+}
+.title h2 {
+  @apply font-PPNeueMachina text-3xl;
+}
+.title span {
+  @apply font-InterRegular text-sm text-secondary;
+}

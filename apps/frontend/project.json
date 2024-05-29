@@ -1,0 +1,88 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/frontend",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "root": "apps/frontend",
+        "outputPath": "apps/frontend/dist"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "apps/frontend/tmp"
+        },
+        "production": {
+          "outputPath": "apps/frontend/dist"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "frontend:build",
+        "dev": true,
+        "hostname": "0.0.0.0",
+        "port": 4200
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "frontend:build:development",
+          "dev": true,
+          "hostname": "0.0.0.0",
+          "port": 4200
+        },
+        "staging": {
+          "buildTarget": "frontend:build:production",
+          "dev": false,
+          "hostname": "XXX",
+          "port": 4200
+        },
+        "production": {
+          "buildTarget": "frontend:build:production",
+          "dev": false,
+          "hostname": "XXX",
+          "port": 4200
+        },
+        "production-dev": {
+          "buildTarget": "frontend:build:production",
+          "dev": false,
+          "hostname": "localhost",
+          "port": 4200
+        },
+        "production-app": {
+          "buildTarget": "frontend:build:production",
+          "dev": false,
+          "hostname": "XXX",
+          "port": 4200
+        }                
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "frontend:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/frontend"],
+      "options": {
+        "jestConfig": "apps/frontend/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/frontend/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,31 @@
+.aboutStore h2 {
+  @apply font-PPNeueMachina text-[20px] lg:text-[30px] mt-4 text-primary;
+}
+
+.aboutStore h3 {
+  @apply font-InterMedium text-[16px] lg:text-[24px] mt-4 text-primary;
+}
+
+.aboutStore h4 {
+  @apply font-InterSemiBold text-[16px] lg:text-[24px] mt-4 text-primary;
+}
+
+.aboutStore p {
+  @apply font-InterLight text-[14px] lg:text-[20px] mt-4;
+}
+
+.aboutStore img {
+  @apply rounded-[25px] mt-4;
+}
+
+.aboutStore ul {
+  @apply list-disc;
+}
+
+.aboutStore ol {
+  @apply list-decimal;
+}
+
+.aboutStore li {
+  @apply font-InterLight text-[14px] lg:text-[20px] mt-4 ml-5;
+}

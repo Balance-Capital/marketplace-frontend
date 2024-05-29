@@ -1,0 +1,37 @@
+[
+  {
+    "locale": "en",
+    "title": "Settings XXX | Save Online On Your Next Shopping",
+    "description": "Settings page",
+    "keyWords": "Settings, user",
+    "openGraph": {
+      "ogTitle": "Settings XXX | Save Online On Your Next Shopping",
+      "ogDescription": "Settings XXX",
+      "ogType": "website",
+      "ogImage": "https://XXX/assets/images/png/logo-black.png",
+      "ogUrl": "https://XXX/settings",
+      "ogSiteName": "XXX"
+    },
+    "canonicalLink": "https://XXX/settings",
+    "metaRobots": "noarchive",
+    "jsonld": {},
+    "content": {
+      "h1": "Settings",
+      "p1": "Update your profile details, email address and password here.",
+      "h2": "My Profile",
+      "btn1": "Change image",
+      "btn2": "Delete image",
+      "l1": "Username",
+      "l2": "Last name",
+      "l3": "Email",
+      "btn3title": "email",
+      "btn3description": "You should get an email with instructions on how to change your email.",
+      "btn4": "Change email",
+      "btn5": "Change password",
+      "btn5title": "password",
+      "btn5description": "You should get an email with instructions on how to change your password.",
+      "password": "Password",
+      "btn6": "Update profile"
+    }
+  }
+]

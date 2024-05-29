@@ -1,0 +1,6 @@
+.container {
+  @apply w-[340px] h-[600px];
+}
+.title {
+  @apply h-full text-2xl text-gray-600 font-PPNeueMachina flex flex-col items-center justify-center text-center;
+}

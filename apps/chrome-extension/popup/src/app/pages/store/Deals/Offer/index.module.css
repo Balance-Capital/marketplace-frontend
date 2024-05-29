@@ -1,0 +1,9 @@
+.card {
+  @apply w-[330px] h-[166px] bg-white-50 rounded-3xl p-4 flex flex-col justify-between;
+}
+.card > h3 {
+  @apply font-InterRegular text-base text-black;
+}
+.card > span {
+  @apply font-InterRegular text-xs text-secondary;
+}

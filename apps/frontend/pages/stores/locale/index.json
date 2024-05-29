@@ -1,0 +1,39 @@
+
+[
+    {
+      "locale": "en",
+      "title": "Stores with coupons, deals, discounts, promos and more | XXX",
+      "description": "We search for the internet's best coupons. Stop wasting time and money.Check our working promo codes and coupons now to make your money go further.",
+      "keyWords": "coupon codes, code, discounts, coupons, promotional, promo, promotion, deal",
+      "openGraph": {
+        "ogTitle": "Stores with coupons, deals, discounts, promos and more | XXX",
+        "ogDescription": "We search for the internet's best coupons. Stop wasting time and money.Check our working promo codes and coupons now to make your money go further.",
+        "ogType": "website",
+        "ogImage": "",
+        "ogUrl": "https://XXX/stores/all",
+        "ogSiteName": "XXX"
+      },
+      "canonicalLink": "https://XXX/stores/all",
+      "metaRobots": "noarchive",
+      "jsonld": {
+        "website": {
+          "url": "https://XXX/stores/all",
+          "name": "XXX",
+          "alternateName": "XXX"
+        },
+        "breadcrumb": [{
+          "name": "Home",
+          "url": "https://XXX/"
+        },{
+          "name": "Stores",
+          "url": "https://XXX/stores"
+        }]
+      },
+      "content": {
+        "h1": "Popular website with their Coupons",
+        "filter": "Filter:",
+        "h3": "Get Big Savings When You Shop with the Best Coupon at XXX",
+        "p1": "Money is always hard to come by. This is why many of us are doing our best to stretch our funds as much as possible. It doesn’t surprise them that many are looking for discounted rates no matter where they spend their money. Food? Personal care? Gadgets? Whatever item you are interested in buying, you are almost always looking for ways to save a few bucks from it. The good news is that it is possible to stretch your budget even more with the help of coupons."
+      }
+    }
+  ]

@@ -1,0 +1,31 @@
+.modal {
+  @apply relative z-10;
+}
+
+.modal__bg {
+  @apply fixed inset-0 bg-black bg-opacity-60;
+}
+
+.modal__body {
+  @apply fixed inset-0 z-10;
+}
+
+.body__container {
+  @apply w-full h-full bg-[#FFC363];
+}
+
+.container__body {
+  @apply h-[536px] flex flex-col items-center justify-between text-center p-4;
+}
+
+.container__body--p1 {
+  @apply mx-auto w-64 font-PPNeueMachina text-3xl;
+}
+
+.container__body--p2 {
+  @apply mt-2 w-72 font-InterRegular text-base;
+}
+
+.container__body--btn {
+  @apply w-full h-[63px] bg-black text-white-0 text-lg font-PPNeueMachina rounded-full;
+}

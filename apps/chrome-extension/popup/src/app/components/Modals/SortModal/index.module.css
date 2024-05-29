@@ -1,0 +1,27 @@
+.modal {
+  @apply relative z-10;
+}
+
+.modal__bg {
+  @apply fixed inset-0 bg-black bg-opacity-60;
+}
+
+.modal__body {
+  @apply fixed flex items-center justify-end inset-0 z-10;
+}
+
+.body__container {
+  @apply w-full h-2/4 mt-[50vh] p-4 bg-white-0 rounded-tl-3xl rounded-tr-3xl;
+}
+
+.container__h3 {
+  @apply font-InterRegular text-lg text-secondary;
+}
+
+.container__table {
+  @apply w-full border-separate border-spacing-y-4 font-InterRegular text-lg;
+}
+
+.container__table--td {
+  @apply w-5 h-5 accent-black;
+}

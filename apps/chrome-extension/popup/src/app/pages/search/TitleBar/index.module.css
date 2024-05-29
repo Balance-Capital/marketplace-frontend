@@ -1,0 +1,9 @@
+.container {
+  @apply h-16 flex items-center justify-between gap-4 p-4 border-b-2 border-secondary border-opacity-10;
+}
+.container label {
+  @apply w-full font-InterRegular text-base text-secondary flex items-center gap-4;
+}
+.container input {
+  @apply w-full bg-transparent focus:outline-none;
+}

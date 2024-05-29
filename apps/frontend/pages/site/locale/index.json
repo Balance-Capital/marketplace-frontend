@@ -1,0 +1,28 @@
+[
+  {
+    "locale": "en",
+    "title": "coupons, deals, discounts, promos and more | XXX",
+    "description": "We search for the internet's best coupons. Stop wasting time and money.Check our working promo codes and coupons now to make your money go further.",
+    "keyWords": "Promo code, Voucher, coupon code, discount codes, voucher codes",
+    "openGraph": {
+      "ogTitle": "coupons, deals, discounts, promos and more | XXX",
+      "ogDescription": "We search for the internet's best coupons. Stop wasting time and money.Check our working promo codes and coupons now to make your money go further.",
+      "ogType": "company",
+      "ogImage": "https://XXX/assets/images/png/logo-black.png",
+      "ogUrl": "https://XXX/site",
+      "ogSiteName": "XXX"
+    },
+    "canonicalLink": "https:/XXX/site",
+    "metaRobots": "noarchive",
+    "content": {
+      "similarCoupons": "SIMILAR COUPONS",
+      "featuredRetailers": "FEATURED RETAILERS",
+      "h3": "Get ready for the good way to shop.",
+      "p1": "Download our free browser extensions and start saving today.",
+      "btn1": "Add to Chrome - its free!",
+      "all": "All",
+      "deals": "Deals",
+      "coupons": "Codes"
+    }
+  }
+]

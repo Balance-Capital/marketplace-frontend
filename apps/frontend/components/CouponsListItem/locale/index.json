@@ -1,0 +1,11 @@
+[
+  {
+    "locale": "en",
+    "coupon": "COUPON",
+    "deal": "DEAL",
+    "getDeal": "Get deal",
+    "best": "BEST",
+    "daysLeft": "days left",
+    "expired": "expired"
+  }
+]

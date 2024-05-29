@@ -1,0 +1,24 @@
+.topBar {
+  @apply mt-2 p-4 flex items-center justify-between;
+}
+.title {
+  @apply font-PPNeueMachina text-xl;
+}
+.cards {
+  @apply px-4 w-fit flex items-center gap-4;
+}
+.card {
+  @apply p-4 w-64 h-44 rounded-3xl bg-white-0 overflow-hidden flex flex-col justify-between;
+}
+.cardTitle {
+  @apply flex items-center gap-2 font-PPNeueMachina text-sm;
+}
+.cardTitle img {
+  @apply w-9 h-9 rounded-full;
+}
+.card h4 {
+  @apply font-InterRegular text-sm;
+}
+.description {
+  @apply font-InterRegular text-xs text-secondary;
+}

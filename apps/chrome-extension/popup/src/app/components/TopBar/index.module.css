@@ -1,0 +1,3 @@
+.container {
+  @apply h-16 flex items-center justify-between p-4;
+}

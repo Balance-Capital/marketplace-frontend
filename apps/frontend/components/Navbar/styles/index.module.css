@@ -1,0 +1,11 @@
+.header {
+  @apply w-full h-24 lg:h-28 bg-black;
+}
+
+.headerLogo {
+  @apply relative w-44 h-[34px] md:w-40 md:h-[33px] sm:w-32 sm:h-[26px];
+}
+
+.headerDesktopNav {
+  @apply w-fit hidden lg:flex items-center gap-10 xl:gap-20 font-InterRegular text-base md:text-sm sm:text-xs text-white;
+}

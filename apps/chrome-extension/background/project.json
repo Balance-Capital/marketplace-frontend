@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/chrome-extension/background/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "apps/chrome-extension/dist/background",
+        "compiler": "babel",
+        "index": "",
+        "main": "apps/chrome-extension/background/src/main.ts",
+        "tsConfig": "apps/chrome-extension/background/tsconfig.app.json",
+        "generateIndexHtml": false
+      },
+      "configurations": {
+        "development": {
+          "optimization": false,
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": false,
+          "vendorChunk": false,
+          "runtimeChunk": false
+        },
+        "production": {
+          "optimization": true,
+          "outputHashing": "none",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": false,
+          "vendorChunk": false,
+          "runtimeChunk": false,
+          "fileReplacements": [
+            {
+              "replace": "apps/chrome-extension/background/src/environments/environment.ts",
+              "with": "apps/chrome-extension/background/src/environments/environment.prod.ts"
+            }
+          ]
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "options": {
+        "buildTarget": "scripts-background:build"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "scripts-background:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/chrome-extension/background/**/*.ts"]
+      }
+    }
+  }
+}

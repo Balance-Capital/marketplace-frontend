@@ -1,0 +1,92 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/chrome-extension/popup/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "apps/chrome-extension/dist",
+        "index": "apps/chrome-extension/popup/src/index.html",
+        "main": "apps/chrome-extension/popup/src/main.tsx",
+        "polyfills": "apps/chrome-extension/popup/src/polyfills.ts",
+        "tsConfig": "apps/chrome-extension/popup/tsconfig.app.json",
+        "styles": ["apps/chrome-extension/popup/src/styles.css"],
+        "webpackConfig": "@nrwl/react/plugins/webpack",
+        "assets": [
+          "apps/chrome-extension/popup/src/_locales",
+          "apps/chrome-extension/popup/src/assets",
+          "apps/chrome-extension/popup/src/manifest.json"
+        ]
+      },
+      "configurations": {
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        },
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "apps/chrome-extension/popup/src/environments/environment.ts",
+              "with": "apps/chrome-extension/popup/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "none",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "runtimeChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "chrome-extension-popup:build",
+        "hmr": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "chrome-extension-popup:build:development"
+        },
+        "production": {
+          "buildTarget": "chrome-extension-popup:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/chrome-extension/popup/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/chrome-extension/popup"],
+      "options": {
+        "jestConfig": "apps/chrome-extension/popup/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

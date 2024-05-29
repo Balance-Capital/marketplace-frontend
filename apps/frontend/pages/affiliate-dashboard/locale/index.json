@@ -1,0 +1,39 @@
+[
+  {
+    "locale": "en",
+    "title": "Affiliate dashboard XXX | Save Online On Your Next Shopping",
+    "description": "Affiliate dashboard page",
+    "keyWords": "Affiliate dashboard, user",
+    "openGraph": {
+      "ogTitle": "Affiliate dashboard XXX | Save Online On Your Next Shopping",
+      "ogDescription": "Affiliate dashboard XXX",
+      "ogType": "website",
+      "ogImage": "https://XXX/assets/images/png/logo-black.png",
+      "ogUrl": "https://XXX/affiliate-dashboard",
+      "ogSiteName": "XXX"
+    },
+    "canonicalLink": "https://XXX/affiliate-dashboard",
+    "metaRobots": "noarchive",
+    "jsonld": {},
+    "content": {
+      "dashboard": "Dashboard",
+      "settings": "Settings",
+      "support": "Support",
+      "myrewards": "My rewards",
+      "mylinks": "My links",
+      "activity": "Activity",
+      "th1": "Store",
+      "th2": "Order amount",
+      "th3": "Commission",
+      "th4": "Clicked",
+      "th5": "Date",
+      "th6": "Status",
+      "notfound": "No records found for selected month.",
+      "h2": "Welcome back ",
+      "h2a": "Available balance",
+      "h2b": "Pending commission",
+      "h2c": "Link clicks",
+      "h2d": "Conversions"
+    }
+  }
+]

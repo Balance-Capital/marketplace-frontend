@@ -1,0 +1,30 @@
+[
+  {
+    "locale": "en",
+    "title": "Register account XXX | Save Online On Your Next Shopping",
+    "description": "registration page",
+    "keyWords": "registration ",
+    "openGraph": {
+      "ogTitle": "Registration account XXX | Save Online On Your Next Shopping",
+      "ogDescription": "registration by email XXX",
+      "ogType": "website",
+      "ogImage": "https://XXX/assets/images/png/logo-black.png",
+      "ogUrl": "https://XXX/join",
+      "ogSiteName": "XXX"
+    },
+    "canonicalLink": "https://XXX/join",
+    "metaRobots": "noarchive",
+    "jsonld": {
+    },
+    "content": {
+      "p1": "Join with Email",
+      "p2": "Join XXX",
+      "p3": "I would like to receive news and offers from XXX by email.",
+      "p4": "Already a member?",
+      "p5": "Log in",
+      "btn": "Join with Email",
+      "inputEmail": "Enter email",
+      "inputPass": "Enter password"
+    }
+  }
+]

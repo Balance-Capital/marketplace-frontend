@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@monorepo/generic-shared/components": [
+        "libs/generic-shared/components/index.ts"
+      ],
+      "@monorepo/chrome-extension/components": [
+        "libs/chrome-extension/components/index.ts"
+      ],
+      "@monorepo/chrome-extension/msg-bridge": [
+        "libs/chrome-extension/msg-bridge/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

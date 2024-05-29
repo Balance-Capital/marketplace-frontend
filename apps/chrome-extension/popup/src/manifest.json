@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "description": "Marketplace tracks offers from online merchants to help consumers save money.",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "background": {
+    "service_worker": "background/main.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script/main.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["styles.css", "assets/*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "__MSG_extName__"
+  },
+  "icons": {
+    "16": "assets/png/icon16-inactive.png",
+    "48": "assets/png/icon48-inactive.png",
+    "128": "assets/png/icon128-inactive.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0noxIUEXmIwhhKbUR9nZHkF5weZSD7DpHFvS1buj3h/rp6zj6O1CwPTMYZZ52a6R6Jd88VWtkSKJlZLYZHnydEc9sTzWqdI+Ji6gyVCXARdoPYlNbcIeuNbjZNBEDDbMo97DK8er8LfJ4NUJH0m3po+Dl9NlqBwfXgpJHezrbOFn2wQ0gyvLK4tb1HJHcAhojMAhzvVL59h458j+Xo3eR9weKw/iLP4bNnytWLnwFKfA+ZJ9d6Vp5elG64YcJJ39EJ155fbAdcEzyYbHKfXodp5fa33ECmD9Z8K3nrd4VefZQGPxZdlIKIeVZzMpq1uBPJQk6nY/UBSDjpbNOm98UQIDAQAB"
+}

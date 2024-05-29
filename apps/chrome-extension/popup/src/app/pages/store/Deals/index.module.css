@@ -1,0 +1,15 @@
+.title {
+  @apply bg-black font-PPNeueMachina text-xl text-white-0 p-4 text-ellipsis whitespace-nowrap overflow-hidden;
+}
+.filterBar {
+  @apply flex items-center justify-start gap-6 px-4 bg-black font-InterRegular text-white-0;
+}
+.container {
+  @apply overflow-y-scroll;
+}
+.container > div {
+  @apply flex flex-col gap-4 p-4;
+}
+.storeNoOffer {
+  @apply font-InterRegular text-base text-secondary text-center p-4;
+}

@@ -1,0 +1,3 @@
+.btn {
+  @apply w-24 h-8 flex items-center justify-center font-PPNeueMachina text-xs text-white-0 bg-black rounded-full;
+}

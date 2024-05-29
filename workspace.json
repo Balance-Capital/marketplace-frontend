@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "chrome-extension": "libs/chrome-extension",
+    "generic-shared": "libs/generic-shared",
+    "chrome-extension-background": "apps/chrome-extension/background",
+    "chrome-extension-content-script": "apps/chrome-extension/content-script",
+    "chrome-extension-popup": "apps/chrome-extension/popup",
+    "frontend": "apps/frontend",
+    "frontend-e2e": "apps/frontend-e2e"
+  }
+}

@@ -1,0 +1,6 @@
+.container {
+  @apply h-16 flex items-center justify-between bg-black p-4;
+}
+.container img {
+  @apply w-11 h-11 rounded-xl;
+}

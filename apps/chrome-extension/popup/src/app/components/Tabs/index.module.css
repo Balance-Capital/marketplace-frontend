@@ -1,0 +1,6 @@
+.container {
+  @apply absolute w-full bg-white-50 pt-4 bottom-0 flex items-center justify-around;
+}
+.tab {
+  @apply flex flex-col items-center justify-center gap-3 cursor-pointer;
+}

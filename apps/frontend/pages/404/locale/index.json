@@ -1,0 +1,21 @@
+[
+  {
+    "locale": "en",
+    "title": "Not Found | Save Online On Your Next Shopping",
+    "description": "not found page",
+    "keyWords": "not found page",
+    "canonicalLink": "https://XXX/404",
+    "metaRobots": "noarchive",
+    "jsonld": {
+      "organization": {
+        "name": "XXX",
+        "url": "https://XXX",
+        "logo": "https://XXX/assets/images/png/logo-black.png",
+        "sameAs": []
+      }
+    },
+    "content": {
+      "p1": "Oops! Page not found."
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "locale": "en",
+    "title": "Get the best deals whenever you shop online | XXX",
+    "description": "We search for the internet's best coupons. Stop wasting time and money. Check our working promo codes and coupons now to make your money go further.",
+    "keyWords": "Promo code, Voucher, coupon code, discount codes, voucher codes",
+    "canonicalLink": "https://XXX",
+    "metaRobots": "index follow",
+    "openGraph": {
+      "ogTitle": "Get the best deals whenever you shop online | XXX",
+      "ogDescription": "We search for the internet's best coupons. Stop wasting time and money.Check our working promo codes and coupons now to make your money go further.",
+      "ogType": "website",
+      "ogImage": "https://XXX/assets/images/png/logo-black.png",
+      "ogUrl": "https://XXX",
+      "ogSiteName": "XXX"
+    },
+    "jsonld": {
+      "website": {
+        "url": "https://XXX",
+        "name": "XXX",
+        "alternateName": "XXX"
+      },
+      "breadcrumb": [
+        {
+          "name": "Home",
+          "url": "https://XXX"
+        },
+        {
+          "name": "Terms of use",
+          "url": "https://XXX/term-of-use"
+        },
+        {
+          "name": "Privacy Policy",
+          "url": "https://XXX/privacy-policy"
+        }
+      ],
+      "organization": {
+        "name": "XXX",
+        "url": "https://XXX",
+        "logo": "https://XXX/assets/images/png/logo-black.png",
+        "sameAs": []
+      }
+    },
+    "content": {
+      "h1": "Get the best deals whenever you shop online",
+      "h1a": "Get the best deals when you shop online",
+      "p1": "XXX does all the hard work for you and finds all the best discounts and coupon codes for thousands of online stores",
+      "p1a": "XXX does all the hard work for you and finds all the best discounts and coupon codes for thousands of online stores",
+      "btn1": "Add to Chrome - its free!",
+      "btn2": "Add to Chrome",
+      "h2": "Today’s Top Storess",
+      "h2a": "Popular Stores",
+      "h3": "Get ready for the Clevr way to shop.",
+      "p2": "Download our free browser extensions and start saving today.",
+      "h3a": "Today’s Trending Deals & Coupons",
+      "h3b": "XXX Is The One-Stop Coupons Shop You Need Today",
+      "p3": "Money is always hard to come by. This is why many of us are doing our best to stretch our funds as much as possible. It doesn’t surprise them that many are looking for discounted rates no matter where they spend their money. Food? Personal care? Gadgets? Whatever item you are interested in buying, you are almost always looking for ways to save a few bucks from it. The good news is that it is possible to stretch your budget even more with the help of coupons.",
+      "workBarh2a": "How it works",
+      "workBarH3a": "1. Download and pin",
+      "workBarPa": "Download our browser extension and pin it to your toolbar",
+      "workBarH3b": "2. Shop like normal",
+      "workBarPb": "Visit your favourite online stores and tap the XXX icon to browse all available discounts and codes.",
+      "workBarH3c": "3. Apply the codes and save!",
+      "workBarPc": "If we find working codes, apply the one with the biggest savings to your cart."
+    }
+  }
+]

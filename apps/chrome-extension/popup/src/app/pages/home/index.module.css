@@ -1,0 +1,6 @@
+.container {
+  @apply w-[362px] h-[600px] bg-white-100;
+}
+.loader {
+  @apply w-full h-screen flex items-center justify-center;
+}

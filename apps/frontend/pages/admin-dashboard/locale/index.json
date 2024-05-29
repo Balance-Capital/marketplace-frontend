@@ -1,0 +1,31 @@
+[
+  {
+    "locale": "en",
+    "title": "Administration dashboard XXX | Save Online On Your Next Shopping",
+    "description": "Administration dashboard page",
+    "keyWords": "Administration dashboard, user",
+    "openGraph": {
+      "ogTitle": "Administration dashboard XXX | Save Online On Your Next Shopping",
+      "ogDescription": "Administration dashboard XXX",
+      "ogType": "website",
+      "ogImage": "https://XXX/assets/images/png/logo-black.png",
+      "ogUrl": "https://XXX/admin-dashboard",
+      "ogSiteName": "XXX"
+    },
+    "canonicalLink": "https://XXX/admin-dashboard",
+    "metaRobots": "noarchive",
+    "jsonld": {},
+    "content": {
+      "dashboard": "Dashboard",
+      "allOffers": "All offers",
+      "validOffers": "Valid Offers",
+      "siteMapOffers": "Site Map Offers",
+      "siteMapStores": "Site Map Stores",
+      "storesWithoutLogo": "Stores without Logo",
+      "storesWithoutDescription": "Stores without Description",
+      "storesWithoutFaq": "Stores without Faq",
+      "storesWithoutCommission": "Stores without Commission",
+      "storesWithoutCategories": "Stores without Categories"
+    }
+  }
+]

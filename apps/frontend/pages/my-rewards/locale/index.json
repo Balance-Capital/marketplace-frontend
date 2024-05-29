@@ -1,0 +1,33 @@
+[
+  {
+    "locale": "en",
+    "title": "My rewards XXX | Save Online On Your Next Shopping",
+    "description": "My rewards page",
+    "keyWords": "rewards, user",
+    "openGraph": {
+      "ogTitle": "My rewards XXX | Save Online On Your Next Shopping",
+      "ogDescription": "My rewards XXX",
+      "ogType": "website",
+      "ogImage": "https://XXX/assets/images/png/logo-black.png",
+      "ogUrl": "https://XXX/my-rewards",
+      "ogSiteName": "XXX"
+    },
+    "canonicalLink": "https://XXX/my-rewards",
+    "metaRobots": "noarchive",
+    "jsonld": {},
+    "content": {
+      "h2": "My rewards",
+      "total": "Clevr Cash",
+      "pending": "Pending earnings",
+      "available": "Available earnings",
+      "withdraw": "Withdraw",
+      "transactions": "Transactions",
+      "th1": "Type",
+      "th2": "Amount",
+      "th3": "Date",
+      "th4": "Transaction ID",
+      "th5": "Status",
+      "notfound": "No rewards are available to display"
+    }
+  }
+]
